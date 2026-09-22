@@ -61,6 +61,7 @@ Temporary Items
 config
 !config/config.js.sample
 !config/custom.css.sample
+!config/config.js
 
 # Vim
 ## swap
