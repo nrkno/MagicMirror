@@ -77,7 +77,7 @@ let config = {
 				lat: 59.932267,
 				lon: 10.724083,
 				maxStops: 3,
-				maxDepartures: 8,
+				maxDepartures: 4,
 				updateInterval: 30 * 1000,
 				excludeStops: ["Vestre Aker kirke"],
 				walkMinutes: {
