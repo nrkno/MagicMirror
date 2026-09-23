@@ -1,0 +1,39 @@
+.ruter-stop {
+	margin-bottom: 12px;
+}
+
+.ruter-stop-name {
+	margin-bottom: 4px;
+	text-transform: uppercase;
+	letter-spacing: 0.05em;
+}
+
+.ruter-departures {
+	width: 100%;
+	border-collapse: collapse;
+}
+
+.ruter-departures td {
+	padding: 3px 8px;
+}
+
+.ruter-line {
+	font-weight: bold;
+	min-width: 36px;
+	color: #fff;
+}
+
+.ruter-destination {
+	color: #ccc;
+	padding-right: 16px;
+}
+
+.ruter-time {
+	text-align: right;
+	min-width: 52px;
+	color: #aaa;
+}
+
+.ruter-time.realtime {
+	color: #7fc97f;
+}

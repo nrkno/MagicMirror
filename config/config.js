@@ -70,6 +70,23 @@ let config = {
 			}
 		},
 		{
+			module: "MMM-RuterDepartures",
+			position: "top_right",
+			header: "Avganger Marienlyst / Majorstuen",
+			config: {
+				lat: 59.932267,
+				lon: 10.724083,
+				maxStops: 3,
+				maxDepartures: 8,
+				updateInterval: 30 * 1000,
+				excludeStops: ["Vestre Aker kirke"],
+				walkMinutes: {
+					"Marienlyst": 5,
+					"Majorstuen": 10,
+				},
+			}
+		},
+		{
 			module: "newsfeed",
 			position: "bottom_bar",
 			config: {
